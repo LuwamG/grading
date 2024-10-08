@@ -19,7 +19,7 @@ double get_valid_score(const string& student_name) {
         cin >> score;
 
         if (score >= 0 && score <= 100) {
-            cin.ignore(); // Clear the input buffer
+            cin.ignore(); 
             return score; // Return the valid score
         }
         else {
