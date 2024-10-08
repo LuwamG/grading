@@ -94,7 +94,7 @@ void compare_results(int count) {
     while (true) {
         string student1, student2;
         cout << "\nEnter the first student's name to compare (or type 'exit' to finish): ";
-        getline(cin, student1); // Use getline for the first student
+        getline(cin, student1); 
         if (student1 == "exit") {
             break;
         }
