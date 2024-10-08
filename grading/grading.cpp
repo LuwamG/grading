@@ -100,7 +100,7 @@ void compare_results(int count) {
         }
 
         cout << "Enter the second student's name to compare: ";
-        getline(cin, student2); // Use getline for the second student
+        getline(cin, student2); 
 
         double score1 = -1, score2 = -1;
         for (int i = 0; i < count; i++) {
